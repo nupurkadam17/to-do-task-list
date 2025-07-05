@@ -1,6 +1,8 @@
 # to-do-task-list
 A simple Python console app to manage daily tasks — add, complete, view, and delete to-dos.
+
 🔧 Features
+
 ➕ Add Tasks — Add new tasks to your to-do list
 
 ✅ Mark as Completed — Keep track of finished tasks
