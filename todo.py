@@ -25,7 +25,7 @@ def view_incompleted_tasks():
         print("🎉 All tasks are completed!")
         return
 
-    print("⏳ Incompleted Tasks:")
+    print("\n⏳ Incompleted Tasks:")
     for i, (task, _) in enumerate(incompleted, 1):
         print(f"{i}. {task}")
 
@@ -55,7 +55,7 @@ def delete_task(tasks):
     if index.isdigit():
         index = int(index) - 1
         if 0 <= index < len(tasks):
-            print(f"🗑️ Deleted: {tasks[index][0]}")
+            print(f"🗑️  Deleted: {tasks[index][0]}")
             tasks.pop(index)
         else:
             print("⊘ Invalid task number.")
